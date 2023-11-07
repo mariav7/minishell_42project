@@ -1,3 +1,4 @@
+<div align="center">
 
     ██╗         ███╗   ███╗██╗███╗   ██╗██╗███████╗██╗  ██╗███████╗██╗     ██╗     
     ╚██╗        ████╗ ████║██║████╗  ██║██║██╔════╝██║  ██║██╔════╝██║     ██║     
@@ -7,6 +8,8 @@
     ╚═╝ ╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 ---
 Coded with 💗 by: [mflores-](https://github.com/mariav7) and [pmaimait](https://github.com/paridaMamat)
+
+</div>
 
 ## Project
 
@@ -52,8 +55,8 @@ This Minishell DOES NOT support `\`, `;`, `&&`, `||`, or wildcards.
 
 **Clone repo and compile project:**
 ```bash
-  git clone git@github.com:mariav7/minishell_42project.git
-  cd minishell_42project && make
+git clone git@github.com:mariav7/minishell_42project.git
+cd minishell_42project && make
 ```
 
 **To run the program in normal mode:**
@@ -67,4 +70,11 @@ OR
 ```bash
 ./leak_test.sh
 ```
+---
+
+## Demo
+<div align="center">
+
 ![Demo:](misc/demo.gif)
+
+</div>
