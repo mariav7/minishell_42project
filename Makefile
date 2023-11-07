@@ -6,7 +6,7 @@
 #    By: mflores- <mflores-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/16 11:46:30 by mflores-          #+#    #+#              #
-#    Updated: 2023/11/07 19:44:54 by mflores-         ###   ########.fr        #
+#    Updated: 2023/11/07 20:47:15 by mflores-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -159,8 +159,7 @@ export HEADER_PROJECT
 header:
 		clear
 		@echo "$(BOLD) $$HEADER_PROJECT $(RESET)\n"
-		@echo "$(BOLD)$(MAGENTA)Coded by \e]8;;$(GITHUB_PROF)\e\\mflores-\e]8;;\e\\ and\
-		\e]8;;$(GITHUB_COLL)\e\\pmaimait\e]8;;\e\\ $(RESET)\n"
+		@echo "$(BOLD)$(MAGENTA)Coded by \e]8;;$(GITHUB_PROF)\e\\mflores-\e]8;;\e\\ and \e]8;;$(GITHUB_COLL)\e\\pmaimait\e]8;;\e\\ $(RESET)\n"
 
 # COLORS
 RESET = \033[0m

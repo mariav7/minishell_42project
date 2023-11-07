@@ -11,5 +11,5 @@ then
     echo -e "${RED}Error: valgrind could not be found.\n${YELLOW}Please install valgrind before re-launching the script.${RESET}"
     exit 1
 else
-    make && valgrind --suppressions=ignore_readline_leaks.supp --leak-check=full --show-leak-kinds=all --track-fds=yes ./minishell
+    make && valgrind --suppressions=./misc/ignore_readline_leaks.supp --leak-check=full --show-leak-kinds=all --track-fds=yes ./minishell
 fi
