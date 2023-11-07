@@ -1,2 +1,9 @@
-# minishell_42project
-Minishell is a 42 school team project to create a basic shell program in C. It implements redirections, pipes, environment variables and some builtin commands.
+
+██╗         ███╗   ███╗██╗███╗   ██╗██╗███████╗██╗  ██╗███████╗██╗     ██╗     
+╚██╗        ████╗ ████║██║████╗  ██║██║██╔════╝██║  ██║██╔════╝██║     ██║     
+ ╚██╗       ██╔████╔██║██║██╔██╗ ██║██║███████╗███████║█████╗  ██║     ██║     
+ ██╔╝       ██║╚██╔╝██║██║██║╚██╗██║██║╚════██║██╔══██║██╔══╝  ██║     ██║     
+██╔╝███████╗██║ ╚═╝ ██║██║██║ ╚████║██║███████║██║  ██║███████╗███████╗███████╗
+╚═╝ ╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
+
+Coded with :heartpulse by [mflores-](https://github.com/mariav7) [pmaimait](https://github.com/paridaMamat)
