@@ -6,7 +6,7 @@
 #    By: mflores- <mflores-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/16 19:55:59 by mflores-          #+#    #+#              #
-#    Updated: 2023/11/07 19:27:07 by mflores-         ###   ########.fr        #
+#    Updated: 2023/11/10 16:57:38 by mflores-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -78,7 +78,7 @@ $(NAME):	$(HEADER) $(OBJS)
 $(OBJS_PATH)%.o: $(SRCS_PATH)%.c
 	@mkdir -p $(OBJS_FOLDERS)
 	@$(CC) $(FLAGS) $(HEADER_INC) -MMD -o $@ -c $<
-	@printf "$(YELLOW). . . compiling $(NAME) objects . . . $(ITALIC)$(GREY)%-33.33s\r$(RESET)" $@
+	@printf "$(YELLOW). . . compiling $(NAME) objects . . . => $(ITALIC)$(GREY)%-33.33s\r$(RESET)" $@
 
 clean:
 	@$(RM) -rd $(OBJS_PATH)

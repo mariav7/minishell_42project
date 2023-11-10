@@ -1,11 +1,7 @@
 <div align="center">
 
-    ██╗         ███╗   ███╗██╗███╗   ██╗██╗███████╗██╗  ██╗███████╗██╗     ██╗     
-    ╚██╗        ████╗ ████║██║████╗  ██║██║██╔════╝██║  ██║██╔════╝██║     ██║     
-     ╚██╗       ██╔████╔██║██║██╔██╗ ██║██║███████╗███████║█████╗  ██║     ██║     
-     ██╔╝       ██║╚██╔╝██║██║██║╚██╗██║██║╚════██║██╔══██║██╔══╝  ██║     ██║     
-    ██╔╝███████╗██║ ╚═╝ ██║██║██║ ╚████║██║███████║██║  ██║███████╗███████╗███████╗
-    ╚═╝ ╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
+![Demo:](misc/demo.gif)
+
 ---
 Coded with 💗 by: [mflores-](https://github.com/mariav7) and [pmaimait](https://github.com/paridaMamat)
 
@@ -15,9 +11,11 @@ Coded with 💗 by: [mflores-](https://github.com/mariav7) and [pmaimait](https:
 
 [**Subject PDF**](misc/en.subject.pdf)
 
-The purpose of Minishell is to create a simple small [shell](https://en.wikipedia.org/wiki/Shell_(computing)) program based on [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html#:~:text=The%20name%20is%20an%20acronym,Labs%20Research%20version%20of%20Unix.).
+The purpose of Minishell is to create a simple small [shell](https://en.wikipedia.org/wiki/Shell_(computing)) program in [C](https://en.cppreference.com/w/c/language) based on [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html#:~:text=The%20name%20is%20an%20acronym,Labs%20Research%20version%20of%20Unix.).
 
 A shell, in simple terms, is a command-line interface that allows you to interact with your computer's operating system by typing commands in order to tell it what to do.
+
+---
 
 ## Supported feautures
 
@@ -53,28 +51,22 @@ This Minishell DOES NOT support `\`, `;`, `&&`, `||`, or wildcards.
 
 ## Installation
 
-**Clone repo and compile project:**
+**Clone github repository and compile program:**
 ```bash
 git clone git@github.com:mariav7/minishell_42project.git
 cd minishell_42project && make
 ```
 
-**To run the program in normal mode:**
+**Run the program:**
 ```bash
 ./minishell
 ```
 
 OR
 
-**To run the program using valgrind:**
+**Run the program using valgrind:**
 ```bash
 ./leak_test.sh
 ```
+
 ---
-
-## Demo
-<div align="center">
-
-![Demo:](misc/demo.gif)
-
-</div>
